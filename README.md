@@ -18,7 +18,7 @@ The user can search alphabetically in book's list, the books' total price will b
     |
     |_ _ _ main.js (Books instances and page's elements)
 
-[@import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) statement have been applied to [export](https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export) values in each [modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules).
+[@import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) statement have been applied to [export](https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export) values in each [module](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules).
 
 ### DOM Events 
 * [KeyUp](https://developer.mozilla.org/en-US/docs/Web/API/Document/keyup_event) - Trigger a search when key is released on search bar.
