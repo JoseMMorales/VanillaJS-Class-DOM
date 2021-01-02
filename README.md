@@ -4,11 +4,11 @@ The Document Object Model[(DOM)](https://developer.mozilla.org/en-US/docs/Web/AP
 
 It is based on Object-Oriented-Programming[(OOP)](https://en.wikipedia.org/wiki/Object-oriented_programming), so that's why I have built the books' list in this repo using [CLASSES](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes), they act like templates to create the objects, initiated by [constructors](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor) adding functionalities dinamically in each function. 
 
-### Functionalities in this project
+## Functionalities in this project
 
 The user can search alphabetically in book's list, the books' total price will be updated automatically at the bottom of the list, and the user will be able to sort the list by clicking the toggle button at the top of the list.
 
-### CLASS Folder Structure
+## CLASS Folder Structure
 
     /JS/
     |
@@ -20,19 +20,21 @@ The user can search alphabetically in book's list, the books' total price will b
 
 [@import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) statement have been applied to [export](https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export) values in each [module](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules).
 
-### DOM Events 
+## DOM Events 
 * [KeyUp](https://developer.mozilla.org/en-US/docs/Web/API/Document/keyup_event) - Trigger a search when key is released on search bar.
 * [Click](https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event) - When button is pressed sort the books' list.
 
-### DOM Nodes Created 
+## DOM Nodes Created 
 
 TR(Table Rows) and TD(Table Cells) to display all features of the books (Price, title, Sales, Author, etc...)
 
-### Screenshots books' list
+## Screenshots books' list
 *Full List View
 ![Screenshot 2021-01-02 at 14 23 43](https://user-images.githubusercontent.com/43299285/103458205-202e9b80-4d06-11eb-919d-f1e58bb1381c.png)
 *Sorted List View
 ![Screenshot 2021-01-02 at 14 25 24](https://user-images.githubusercontent.com/43299285/103458233-5c61fc00-4d06-11eb-8640-f419b29b332a.png)
+
+### !!!Note that resources in this project are for learning purposes.
 
 ## Installing
 * Clone the project to your local directory.
