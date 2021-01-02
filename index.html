@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Table VanillaJS</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container my-5">
+      <div class="d-flex justify-content-between align-items-center">
+        <nav class="navbar navbar-light bg-light p-0 w-75">
+          <form class="form-inline w-100">
+            <input class="js-search-bar form-control mr-sm-2 w-100" type="search"
+              placeholder="Enter here your favourite book..." aria-label="Search">
+          </form>
+        </nav>
+        <button class="js-toggle-button btn btn-primary" id="makeRemovable">Sort Table</button>
+      </div>
+    </div>
+    <div class="container">
+      <table class="table table-hover text-center">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Title</th>
+            <th scope="col">Author</th>
+            <th scope="col">Sales</th>
+            <th scope="col">Price</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+        <tfoot>
+          <tr class="table-active">
+            <td colspan="4">
+              <strong>Total</strong>
+            </td>
+            <td>
+              <strong><span class="js-total-sum"></span></strong>
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+    <script type="module" src="js/book.js"></script>
+    <script type="module" src="js/bookTable.js"></script>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
