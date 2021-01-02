@@ -29,9 +29,9 @@ The user can search alphabetically in book's list, the books' total price will b
 TR(Table Rows) and TD(Table Cells) to display all features of the books (Price, title, Sales, Author, etc...)
 
 ### Screenshots books' list
-*Full list view
+*Full List View
 ![Screenshot 2021-01-02 at 14 23 43](https://user-images.githubusercontent.com/43299285/103458205-202e9b80-4d06-11eb-919d-f1e58bb1381c.png)
-*List sorted
+*Sorted List View
 ![Screenshot 2021-01-02 at 14 25 24](https://user-images.githubusercontent.com/43299285/103458233-5c61fc00-4d06-11eb-8640-f419b29b332a.png)
 
 ## Installing
