@@ -40,8 +40,8 @@ TR(Table Rows) and TD(Table Cells) to display all features of the books (Price, 
 * Clone the project to your local directory.
 * $git clone https://github.com/JoseMMorales/VanillaJS-Class-DOM.git
 * $cd VanillaJS-Class-DOM.
-* Right click on index.html file and select "Copy path".
-* Open window browser and paste URL.
+* $npm install
+* $npm start
 
 ## Technology:
 * HTML5
